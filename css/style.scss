@@ -1,5 +1,3 @@
-/* Place your CSS styles in this file */
-
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
 html {
@@ -28,18 +26,16 @@ body {
     #00fff0
   );
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 98.5vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  font-family: "Varela Round", sans-serif;
   color: white;
 }
 
 .header {
   position: fixed;
-  padding: 1em 0;
-  top: 0;
+  padding: 1.5em;
 
   &__content {
     display: flex;
@@ -54,6 +50,7 @@ body {
 
   &__nav {
     display: flex;
+    padding-left: 20em;
   }
 
   &__nav--item {
@@ -64,10 +61,17 @@ body {
   }
 }
 
-.title {
-  text-align: center;
-  font-family: "Varela Round", sans-serif;
-  font-size: 5em;
-  text-shadow: 3px 3px black;
-  color: white;
+.homepage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__title {
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 5em;
+    text-shadow: 3px 3px black;
+    color: white;
+  }
 }
