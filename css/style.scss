@@ -69,9 +69,183 @@ body {
 
   &__title {
     text-align: center;
-    font-family: "Varela Round", sans-serif;
     font-size: 5em;
     text-shadow: 3px 3px black;
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 700px;
+
+  &__title {
+    font-size: 3em;
+    text-shadow: 3px 3px black;
+    margin: 4em 0 2em 0;
+  }
+
+  &__picture {
+    height: 250px;
+    width: 200px;
+    border-radius: 25%;
+    margin-bottom: 4em;
+  }
+
+  &__content {
+    line-height: 1.5em;
+    text-align: left;
+  }
+}
+
+.experience {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 3em;
+    text-shadow: 3px 3px black;
+    margin: 4em 0 2em 0;
+  }
+
+  &__container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12em;
+  }
+
+  &__content {
+    list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='-1 -1 2 2'><circle r='1' /></svg>");
+    border-left: 2px solid black;
+  }
+
+  &__content--description {
+    margin-left: 5px;
+    width: 400px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  &__content--year {
+    font-weight: 700;
+  }
+}
+
+.education {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 3em;
+    text-shadow: 3px 3px black;
+    margin: 4em 0 2em 0;
+  }
+
+  &__container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12em;
+  }
+
+  &__content {
+    list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='-1 -1 2 2'><circle r='1' /></svg>");
+    border-left: 2px solid black;
+  }
+
+  &__content--description {
+    margin-left: 5px;
+    width: 400px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  &__content--year {
+    font-weight: 700;
+  }
+}
+
+.skills {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 3em;
+    text-shadow: 3px 3px black;
+    margin: 4em 0 2em 0;
+  }
+
+  &__container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__skill {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 3em;
+}
+
+.yes {
+  background-color: white;
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 3em;
+    text-shadow: 3px 3px black;
+    margin: 4em 0 2em 0;
+  }
+
+  &__container {
+    width: 700px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+  }
+
+  &__content--icon {
+    height: 50px;
+    margin-right: 2em;
+  }
+
+  &__content--link {
     color: white;
+    text-decoration: none;
   }
 }
