@@ -52,6 +52,7 @@ body {
 }
 
 .header {
+  max-width: 1200px;
   position: fixed;
   padding: 1.5em;
 }
