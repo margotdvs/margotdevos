@@ -46,6 +46,11 @@ body {
   color: white;
 }
 
+.links {
+  border-bottom: 2px solid black;
+  height: 30px;
+}
+
 .header {
   position: fixed;
   padding: 1.5em;
