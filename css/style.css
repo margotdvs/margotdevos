@@ -9,6 +9,23 @@ html {
 *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00fff0), color-stop(#00f0fc), color-stop(#00e0ff), color-stop(#00ceff), color-stop(#00bcff), color-stop(#47b4ff), color-stop(#6fabff), color-stop(#92a0ff), color-stop(#aaa0ff), color-stop(#c29fff), color-stop(#d89eff), to(#ee9dff));
+  background-image: linear-gradient(#00fff0, #00f0fc, #00e0ff, #00ceff, #00bcff, #47b4ff, #6fabff, #92a0ff, #aaa0ff, #c29fff, #d89eff, #ee9dff);
+  -webkit-box-shadow: inset 2px 2px 5px 0 rgba(34, 34, 34, 0.5);
+          box-shadow: inset 2px 2px 5px 0 rgba(34, 34, 34, 0.5);
+  border-radius: 10px;
 }
 
 body {
